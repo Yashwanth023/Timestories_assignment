@@ -1,0 +1,91 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.featured-voices {
+  width: 65%;
+  margin-right: 20px;
+}
+
+.featured-voices h1 {
+  font-size: 24px;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+}
+
+.voices-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.voice h2 {
+  color: red;
+  font-size: 18px;
+}
+
+.voice p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.latest-stories {
+  width: 30%;
+  background-color: #ffed00;
+  padding: 20px;
+}
+
+.latest-stories h2 {
+  font-size: 20px;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+}
+
+.latest-stories ul {
+  list-style: none;
+  padding: 0;
+}
+
+.latest-stories li {
+  margin: 15px 0;
+}
+
+.latest-stories li a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.latest-stories li small {
+  display: block;
+  font-size: 12px;
+  color: grey;
+}
+
+.App-footer {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 20px 0; /* Padding for spacing */
+  text-align: center; /* Center align the text */
+  position: relative; /* Fix the footer to the bottom */
+  width: 100%; /* Ensure the footer spans the full width */
+  bottom: 0; /* Position it at the bottom of the page */
+  font-size: 1rem; /* Adjust the font size */
+  border-top: 2px solid #ffed00; /* Add a yellow border on top */
+  margin: 10px;
+}
+
+.App-footer p {
+  margin: 0; /* Remove default margin */
+  font-family: 'Arial', sans-serif; /* Set a clean font */
+}
+
+
+

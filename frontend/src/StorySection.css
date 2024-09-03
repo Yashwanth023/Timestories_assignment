@@ -1,0 +1,51 @@
+.story-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.featured-section {
+    flex: 4;
+    margin-right: 20px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.latest-section {
+    flex: 1; /* Change this from 1 to 2 or higher to expand it horizontally */
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* Remove the width: 100% to allow it to grow based on flex */
+}
+
+.latest-stories {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%; /* Ensure stories take full width of the container */
+}
+
+.latest-story {
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 400px; /* Ensure each story takes full width */
+}
+
+.latest-story:last-child {
+    margin-bottom: 0;
+}
+
+.latest-story a {
+    text-decoration: underline;
+    color: rgb(1, 7, 10);
+    display: block;
+    line-height: 1.5em;
+    width: 100%;
+}
